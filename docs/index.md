@@ -5,7 +5,8 @@ Learning Documentation of the course [Flutter & Dart Course](https://www.udemy.c
 ## Course Sections
 
 01. [Introduction](Pages/01. Introduction.md)
-    01. [Installation](Pages/01. Introduction.md#installation)
+    * [Installation](Pages/01. Introduction.md#installation)
+    * [Getting Started](Pages/01. Introduction.md#getting-started)
 02. Flutter & Dart Basics I - Getting a Solid Foundation [ROLL DICE APP]
 03. Flutter & Dart Basics II - Fundamentals Deep Dive [QUIZ APP]
 04. Debugging Flutter Apps

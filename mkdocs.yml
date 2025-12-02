@@ -28,6 +28,14 @@ theme:
 plugins:
   - search
   - offline
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
 
 markdown_extensions:
   - attr_list
@@ -50,3 +58,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
