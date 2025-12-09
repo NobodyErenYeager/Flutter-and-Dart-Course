@@ -1,9 +1,12 @@
 site_name: Flutter & Dart Course
 
 nav:
-  - Home: index.md
-  - 01. Introduction: Pages/01. Introduction.md
-#   - 02. Introduction to PostgreSQL: Pages/02. Intro to PostgreSQL.md
+  - Contents: 
+    - index.md
+    - Sections:
+      - 01. Introduction: Pages/01-Introduction.md
+      - 02. Flutter & Dart Basics I: Pages/02-Flutter-Dart-Basics-I.md
+  - widgets.md
 
 theme:
   name: material
@@ -24,6 +27,8 @@ theme:
         name: Switch to dark mode
   features:
     - content.code.copy
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 plugins:
   - search
